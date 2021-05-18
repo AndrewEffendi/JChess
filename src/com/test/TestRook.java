@@ -99,26 +99,26 @@ public class TestRook {
 
         test_3.move(2, 2, 2);
         if(test_3 != Main.getPiece(2*pixel, 2*pixel)) {
-            System.out.println("Test backward fail (bishop should have killed enemy at (2,2))");
+            System.out.println("Test backward fail (rook should have killed enemy at (2,2))");
             return;
         }
 
         test_3.move(2, 0, 2);
         if(test_3 != Main.getPiece(2*pixel, 0)) {
-            System.out.println("Test forward fail (bishop should have killed enemy at (2,0))");
+            System.out.println("Test forward fail (rook should have killed enemy at (2,0))");
             return;
         }
 
         test_3.move(2, 1, 2);
         test_3.move(3, 1, 2);
         if(test_3 != Main.getPiece(3*pixel, pixel)) {
-            System.out.println("Test right fail (bishop should have killed enemy at (3,1))");
+            System.out.println("Test right fail (rook should have killed enemy at (3,1))");
             return;
         }
 
         test_3.move(1, 1, 2);
         if(test_3 != Main.getPiece(pixel, pixel)) {
-            System.out.println("Test left fail (bishop should have killed enemy at (1,1))");
+            System.out.println("Test left fail (rook should have killed enemy at (1,1))");
             return;
         }
         System.out.println("All valid enemy kill test passed\n");
