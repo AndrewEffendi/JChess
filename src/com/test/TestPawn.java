@@ -1,6 +1,9 @@
 package com.test;
 import com.chess.*;
 
+/**
+ * @author Andrew Effendi
+ */
 public class TestPawn {
     public static void main(String[] args) {
         int pixel = 64;

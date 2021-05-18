@@ -1,5 +1,9 @@
 package com.test;
 import com.chess.*;
+
+/**
+ * @author Andrew Effendi
+ */
 public class TestRook {
     public static void main(String[] args) {
         int pixel = 64;

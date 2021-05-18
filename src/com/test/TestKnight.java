@@ -1,6 +1,9 @@
 package com.test;
 import com.chess.*;
 
+/**
+ * @author Andrew Effendi
+ */
 public class TestKnight {
     public static int testNum = 1;
     public static void main(String[] args) {

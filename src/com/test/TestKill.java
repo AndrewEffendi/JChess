@@ -1,5 +1,6 @@
 package com.test;
 import com.chess.*;
+
 /**
  * @author Andrew Effendi
  */

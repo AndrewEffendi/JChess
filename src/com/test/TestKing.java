@@ -1,5 +1,8 @@
 package com.test;
 
+/**
+ * @author Andrew Effendi
+ */
 public class TestKing {
     public static void main(String[] args) {
         System.out.println("King Test Started\n");
