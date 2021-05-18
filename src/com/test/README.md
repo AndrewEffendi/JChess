@@ -1,0 +1,2 @@
+These are all the test for all the Chess pieces. TestPawn is used to test pawn, TestBishop is to test bishop, and so on.
+TestKill is a class with no main method used to store methods that are used by other test files
