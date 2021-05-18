@@ -1,3 +1,2 @@
 .idea/
-src/com/chess/*.class
-src/com/test/*.class
+out/
