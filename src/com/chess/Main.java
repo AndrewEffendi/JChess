@@ -174,9 +174,14 @@ public class Main {
                     //System.out.println(getPiece(e.getX(), e.getY()).name);
                     if(getPiece(e.getX(), e.getY()).name.equals("king")) targetIsKing = true;
                 }
-                moved = selectedPiece.move(e.getX()/pixel, e.getY()/pixel,current_Player);
+                try {
+                    moved = selectedPiece.move(e.getX() / pixel, e.getY() / pixel, current_Player);
+                }
+                catch (Exception ex){
+                    moved = false;
+                }
                 if(moved && targetIsKing){
-                    System.out.print("Player " + current_Player + " win ");
+                    System.out.print("Congratulations!!\nPlayer " + current_Player + " win ");
                     if(current_Player == 1) System.out.println("(White)");
                     else System.out.println("(Black)");
                     System.exit(0);
