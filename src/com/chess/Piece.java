@@ -5,7 +5,6 @@ import java.util.LinkedList;
  * @author Andrew Effendi
  */
 public class Piece {
-    //int current_Player = 1; // player 1 is white and player 2 is black
     public int gridX;
     public int gridY;
 
